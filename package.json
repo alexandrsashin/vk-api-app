@@ -1,0 +1,25 @@
+{
+  "name": "vk-api-app",
+  "version": "1.0.0",
+  "description": "Download data using VK API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrsashin/vk-api-app.git"
+  },
+  "author": "Alexandr Sashin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrsashin/vk-api-app/issues"
+  },
+  "homepage": "https://github.com/alexandrsashin/vk-api-app#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
